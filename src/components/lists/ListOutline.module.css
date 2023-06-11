@@ -1,0 +1,19 @@
+.listOutline {
+    border: none;
+    outline: 1px solid lightgray;
+    animation-name: zoomIn;
+    animation-duration: 0.5s;
+}
+    
+.listOutline:hover {
+    box-shadow: 5px 5px 5px rgb(147, 147, 147) !important;
+}
+
+@keyframes zoomIn {
+    0% {
+      transform: scale(0.8, 0.8);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+}

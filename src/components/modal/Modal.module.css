@@ -1,0 +1,26 @@
+.dark {
+    background-color: ghostwhite;
+    border-color: #bebebe;
+}
+
+.darkShadow {
+    box-shadow: 3px 3px 7px rgb(111, 111, 111);
+}
+
+.modalAppear {
+    animation: appear 0.3s ease-out;
+}
+
+.modalContent {
+    background: rgba(0,0,0,0);
+    border: none;
+} 
+
+@keyframes appear {
+    from {
+        transform: translateY(-1000px);
+    }
+    to {
+      transform: translateY(0px);
+    }
+}

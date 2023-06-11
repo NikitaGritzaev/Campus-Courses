@@ -1,0 +1,65 @@
+* {
+  transition: background-color 1s;
+}
+
+body:has(#root div.dark) {
+  background: black;
+}
+
+.light ::selection {
+  background: #ffb7b7;
+}
+
+.dark ::selection {
+  background: #004848;
+}
+
+.dark {
+  color: white;
+}
+
+.dark .formLayout,
+.dark .nav-fill,
+.dark .list-group-item,
+.dark .card-body,
+#root:has(div.dark) ~ .modal .modal-header,
+#root:has(div.dark) ~ .modal .modal-body,
+#root:has(div.dark) ~ .modal .modal-footer {
+    background: #1b1e21 !important;
+    border-color: black !important;
+    box-shadow: none;
+    color: white !important;
+}
+
+.dark .imp .card-body {
+  background: #5d1e1e !important;
+  border-color: rgb(195, 86, 86) !important;
+  color: white !important;
+}
+
+.dark .nav-fill button {
+  color: white !important;
+}
+
+.dark .active {
+  background: #232527 !important;
+  border-color: black !important;
+}
+
+.dark input,
+.dark select,
+.dark textarea {
+    background: black;
+    color: white;
+}
+
+.dark input:focus,
+.dark select:focus,
+.dark textarea:focus,
+.dark input:disabled,
+.dark select:disabled {
+    background: #212529;
+    color: white;
+}
+
+

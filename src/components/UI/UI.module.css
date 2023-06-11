@@ -1,0 +1,19 @@
+.RichEditor {
+    min-height: 150px;
+    height: 150px;
+    resize: vertical;
+}
+
+.RichEditorWrapper {
+    padding: 10px;
+    min-height: 150px;
+    background-color: ghostwhite;
+    border: none;
+    border-radius: 4px;
+    color: black;
+    box-shadow: 3px 3px 7px black;
+}
+
+.RichEditorWrapperError {
+    border: 1px solid #dc3545;
+}

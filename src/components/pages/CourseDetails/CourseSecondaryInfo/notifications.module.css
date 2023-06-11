@@ -1,0 +1,12 @@
+.notification {
+    margin: 0;
+    border-radius: 0;
+    border: none;
+}
+
+.notificationImportant {
+    margin: 0;
+    border-radius: 0;
+    background-color: pink;
+    border: none;
+}
